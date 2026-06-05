@@ -1,0 +1,21 @@
+{
+  "name": "play-ts-cucumber",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.60.0",
+    "@types/node": "^25.9.1",
+    "ts-node": "^10.9.2"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^13.0.0"
+  }
+}
