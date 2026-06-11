@@ -10,6 +10,10 @@
             "src/test/steps/*.ts",
             "src/hooks/hooks.ts"
         ],
-        "requireModule": ["ts-node/register"]
+        "requireModule": ["ts-node/register"],
+        "format": [
+            "json:test-results/cucumber_report.json",
+            "html:cucumber-report.html"
+        ]
     }
 }

@@ -17,6 +17,7 @@ import { pageFixture } from '../../hooks/pageFixture';
 
         Given('user enter the password as {string}', async function(string) {
             await pageFixture.page.getByPlaceholder('Password').fill(string);
+            await pageFixture.page.waitForTimeout(2000)
         });
 
         When('user click on the login button', async function() {
